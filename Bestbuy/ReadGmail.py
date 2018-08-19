@@ -82,21 +82,21 @@ for mssg in mssg_list:
                 senderflag = True
         if h['name'] == 'Subject':
             msg_subject = h['value']
-            if 'STUDENT COUPONS' in msg_subject:
+            if 'Check out these STUDENT COUPONS' in msg_subject:
                 subjectflag = True
         else:
             pass
 
     if dateflag and senderflag and subjectflag:
-
         # Fetching message body
-        mssg_parts = payld['parts']  # fetching the message parts
-        part_one = mssg_parts[0]  # fetching first element of the part
-        part_body = part_one['body']  # fetching body of the message
+        #mssg_parts = payld['parts']  # fetching the message parts
+        #part_one = mssg_parts[0]  # fetching first element of the part
+        part_body = payld['body']  # fetching body of the message
         part_data = part_body['data']  # fetching data from the body
         clean_one = part_data.replace("-", "+")  # decoding from Base64 to UTF-8
         clean_one = clean_one.replace("_", "/")  # decoding from Base64 to UTF-8
         clean_two = base64.b64decode(bytes(clean_one))  # decoding from Base64 to UTF-8
+        print clean_two
         splitone = clean_two.split('==================================================')
         splittwo = splitone[0].split('\r\n')
         splitthree = splitone[2].split('\r\n')

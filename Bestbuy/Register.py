@@ -35,7 +35,7 @@ class Bestbuy(WebInterface):
         firstname = firstandlast[0]
         lastname = firstandlast[1]
         randomstring = ''.join(random.choice(string.ascii_uppercase) for _ in range(8))
-        email = randomstring + '+' + str(randint(20))+'@creamdeal.biz'
+        email = randomstring + '+' + str(randint(1,20))+'@creamdeal.biz'
         password = randomstring + '2606!'
         phone = '877' + ''.join(random.choice(string.digits) for _ in range(7))
         self.init_driver()
@@ -67,25 +67,27 @@ class Bestbuy(WebInterface):
         self.click('//*[@id="graduation-year"]')
         self.click('//*[@id="graduation-year"]/option[6]')
         self.click('//*[@id="studentVerification"]/div[2]/div/form/div[7]/div[1]/button')
+        if self.find_element_by_xpath('//*[@id="studentVerification"]/div[2]/div/p'):
+            print 'Success!'
 
 
 def run():
     test = Bestbuy()
-    print "aaa"
     try:
         test.Register()
         test.Enroll()
         test.close()
     except:
+        test.close()
         pass
 
 
 if __name__ == '__main__':
-    run()
-    threads = []
-    for i in range(0):
-        th = Thread(target=run)
-        threads.append(th)
-
-    for t in threads:
-        t.start()
+    for i in range(10):
+        threads = []
+        for i in range(8):
+            th = Thread(target=run)
+            threads.append(th)
+        for t in threads:
+            t.start()
+        sleep(100)

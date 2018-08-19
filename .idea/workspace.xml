@@ -45,32 +45,32 @@
     <session id="1749923922">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
-          <entry key="py" value="933" />
+          <entry key="py" value="1101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="945" />
+          <entry key="Python" value="1113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="269">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#520#551#0" expanded="true" />
               </folding>
@@ -89,15 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret column="8889" selection-start-column="8885" selection-end-column="8889" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webinterface/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="1045">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#79#93#0" expanded="true" />
@@ -106,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/Register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1085">
-              <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="1104">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -136,7 +140,12 @@
     <findStrings>
       <find>parser</find>
       <find>https://click.emailinfo2.bestbuy.com/?qs=1feee45f879cc4df8f932fc645bd993d4578338ae47b3822ac6d0ab3bb5ee6b675053f015b872e6ce0a2290b0e8016d3022d95d8be24894f63e9c467ef66f11b</find>
+      <find>]</find>
+      <find>body</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,6 +156,8 @@
         <option value="$PROJECT_DIR$/webinterface/__init__.py" />
         <option value="$PROJECT_DIR$/Bestbuy/__init__.py" />
         <option value="$PROJECT_DIR$/Bestbuy/Register.py" />
+        <option value="$PROJECT_DIR$/Bestbuy/test.py" />
+        <option value="$PROJECT_DIR$/Bestbuy/ReadGmail.py" />
       </list>
     </option>
   </component>
@@ -156,6 +167,7 @@
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -193,15 +205,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/job/WebAutomation" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhang\Google Drive\ebiz\EBIZ\webinterface\bin" />
+      <recent name="C:\Users\zhang\Google Drive\ebiz\EBIZ\webinterface" />
       <recent name="C:\Users\zhang\PycharmProjects\EBIZ\Bestbuy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zhang\Google Drive\ebiz\EBIZ\webinterface\bin" />
       <recent name="C:\Users\zhang\Google Drive\ebiz\EBIZ" />
+      <recent name="C:\Users\zhang\Google Drive\ebiz\EBIZ\webinterface\bin" />
       <recent name="C:\Users\zhang\PycharmProjects\EBIZ" />
     </key>
   </component>
@@ -217,7 +231,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Register">
+  <component name="RunManager" selected="Python.ReadGmail (1)">
+    <configuration name="ReadGmail (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EBIZ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bestbuy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bestbuy/ReadGmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReadGmail (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EBIZ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadGmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ReadGmail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EBIZ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,9 +341,13 @@
       <item itemvalue="Python.ReadGmail" />
       <item itemvalue="Python.quickstart" />
       <item itemvalue="Python.Register" />
+      <item itemvalue="Python.ReadGmail (1)" />
+      <item itemvalue="Python.ReadGmail (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReadGmail (1)" />
+        <item itemvalue="Python.ReadGmail (2)" />
         <item itemvalue="Python.Register" />
         <item itemvalue="Python.ReadGmail" />
         <item itemvalue="Python.quickstart" />
@@ -318,18 +378,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299532" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943013" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33021078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3299532" />
@@ -353,25 +414,9 @@
     <entry file="file://$PROJECT_DIR$/Bestbuy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="e#520#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/credentials.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webinterface/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1045">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#79#93#0" expanded="true" />
@@ -379,13 +424,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/credentials.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/Register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="1104">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadGmail.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#520#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret column="8889" selection-start-column="8885" selection-end-column="8889" />
         </state>
       </provider>
     </entry>

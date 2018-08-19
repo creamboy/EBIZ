@@ -55,12 +55,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
-          <entry key="py" value="1101" />
+          <entry key="py" value="1113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1113" />
+          <entry key="Python" value="1125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="326">
+              <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
               <folding>
                 <element signature="e#520#551#0" expanded="true" />
               </folding>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret column="8889" selection-start-column="8885" selection-end-column="8889" />
+            <state relative-caret-position="-15681">
+              <caret column="5358" selection-start-column="5358" selection-end-column="5358" />
             </state>
           </provider>
         </entry>
@@ -378,14 +378,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943013" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33021078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33021078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,20 +442,20 @@
     <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
+    <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="e#520#551#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-15681">
+          <caret column="5358" selection-start-column="5358" selection-end-column="5358" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
+    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret column="8889" selection-start-column="8885" selection-end-column="8889" />
+        <state relative-caret-position="326">
+          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+          <folding>
+            <element signature="e#520#551#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

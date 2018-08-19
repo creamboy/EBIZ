@@ -96,16 +96,9 @@ for mssg in mssg_list:
         clean_one = part_data.replace("-", "+")  # decoding from Base64 to UTF-8
         clean_one = clean_one.replace("_", "/")  # decoding from Base64 to UTF-8
         clean_two = base64.b64decode(bytes(clean_one))  # decoding from Base64 to UTF-8
-        print clean_two
-        splitone = clean_two.split('==================================================')
-        splittwo = splitone[0].split('\r\n')
-        splitthree = splitone[2].split('\r\n')
-        if splittwo[1] == splitthree[4]:
+        if clean_two:
             #print i
-            i = i + 1
-            weburl = splittwo[1]
-            content = urllib2.urlopen(weburl)
-            soup = BeautifulSoup(content, "html.parser")
+            soup = BeautifulSoup(clean_two, "html.parser")
             t1 = soup.find_all('a')
             for t2 in t1:
                 t3 = t2.get('href')

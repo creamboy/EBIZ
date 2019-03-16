@@ -45,22 +45,22 @@
     <session id="1749923922">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="12" />
-          <entry key="py" value="1113" />
+          <entry key="py" value="1179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1125" />
+          <entry key="Python" value="1191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+            <state relative-caret-position="447">
+              <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding>
                 <element signature="e#520#551#0" expanded="true" />
               </folding>
@@ -92,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15681">
+            <state relative-caret-position="95">
               <caret column="5358" selection-start-column="5358" selection-end-column="5358" />
             </state>
           </provider>
@@ -113,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bestbuy/Register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
+            <state relative-caret-position="1615">
               <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
@@ -142,6 +142,8 @@
       <find>https://click.emailinfo2.bestbuy.com/?qs=1feee45f879cc4df8f932fc645bd993d4578338ae47b3822ac6d0ab3bb5ee6b675053f015b872e6ce0a2290b0e8016d3022d95d8be24894f63e9c467ef66f11b</find>
       <find>]</find>
       <find>body</find>
+      <find>subject</find>
+      <find>subj</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -384,7 +386,7 @@
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24980299" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943013" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33021078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33021078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,6 +415,27 @@
     <entry file="file://$PROJECT_DIR$/Bestbuy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReadGmail.py" />
+    <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <folding>
+            <element signature="e#520#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret column="5358" selection-start-column="5358" selection-end-column="5358" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webinterface/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -423,12 +446,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/credentials.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bestbuy/Register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
+        <state relative-caret-position="1615">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
@@ -436,28 +456,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadGmail.py">
+    <entry file="file://$PROJECT_DIR$/Bestbuy/credentials.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webinterface/bin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15681">
-          <caret column="5358" selection-start-column="5358" selection-end-column="5358" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bestbuy/ReadGmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="103" column="35" lean-forward="true" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
-          <folding>
-            <element signature="e#520#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">

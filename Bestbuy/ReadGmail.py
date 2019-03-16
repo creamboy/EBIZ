@@ -73,21 +73,24 @@ for mssg in mssg_list:
     for h in headr:  # getting the date
         if h['name'] == 'Date':
             msg_date = h['value']
-            if 'Aug' in msg_date:
+            if '02 Sep' in msg_date:
                 dateflag = True
+                print headr
         if h['name'] == 'From':
             msg_from = h['value']
-            temp_dict['Sender'] = msg_from
-            if 'Best Buy Student Deals' in msg_from:
+            if 'BestBuyInfo@emailinfo.bestbuy.com' in msg_from:
                 senderflag = True
+                print headr
         if h['name'] == 'Subject':
             msg_subject = h['value']
-            if 'Check out these STUDENT COUPONS' in msg_subject:
+            if 'A Limited Time Offer for you' in msg_subject:
                 subjectflag = True
+                #print headr
         else:
             pass
 
     if dateflag and senderflag and subjectflag:
+        print headr
         # Fetching message body
         #mssg_parts = payld['parts']  # fetching the message parts
         #part_one = mssg_parts[0]  # fetching first element of the part
@@ -97,7 +100,7 @@ for mssg in mssg_list:
         clean_one = clean_one.replace("_", "/")  # decoding from Base64 to UTF-8
         clean_two = base64.b64decode(bytes(clean_one))  # decoding from Base64 to UTF-8
         if clean_two:
-            #print i
+            print i
             soup = BeautifulSoup(clean_two, "html.parser")
             t1 = soup.find_all('a')
             for t2 in t1:
